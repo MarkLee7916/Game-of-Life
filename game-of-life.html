@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Game of Life</title>
+		<meta charset="utfc8">	
+		<link rel="stylesheet" href="game-of-life.css">		
+	</head>
+
+	<body>
+		<div id="page">
+			<header>
+				<nav>
+					<ul id="menu">
+						<button class="menu-button" id="reset">Reset</button>
+
+						<span class="menu-text">Toggle Speed</span>
+						<input type="range" min="10" max="190" value="100" id="speed-toggle">
+
+						<button class="menu-button" id="step">Step Forward</button>
+						<button class="menu-button" id="run">Run</button>
+					</ul>
+				</nav>
+			</header>
+
+			<table id="grid" align="center" height="600px" width="1200px">
+			
+			</table>
+		</div>
+	</body>
+
+	<script src="game-of-life.js"></script>
+</html>

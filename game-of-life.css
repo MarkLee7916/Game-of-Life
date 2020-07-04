@@ -1,0 +1,52 @@
+#page {
+	font-family: Helvetica-Neue,sans-serif;
+	height:100%;
+    width:100%;
+	position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+	overflow: auto;
+}
+
+header {
+	background: black;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+header::before, header::after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.menu-text {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.menu-button {
+  border: none;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding-right: 100px;
+}
+
+#speed-toggle {
+	margin-right: 100px;
+	direction: rtl;
+}
+
+#grid {
+	border-collapse: collapse;
+	table-layout: fixed;
+	overflow: hidden;
+}
